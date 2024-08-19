@@ -1,0 +1,7 @@
+.signin-container {
+  @apply h-full w-full bg-primary dark:bg-dark-primary text-text dark:text-dark-text flex flex-col;
+}
+
+.signin-form {
+  @apply bg-primary dark:bg-dark-secondary p-8 rounded-xl shadow-lg flex flex-col gap-4 w-full max-w-96 relative;
+}

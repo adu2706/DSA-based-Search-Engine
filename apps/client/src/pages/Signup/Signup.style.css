@@ -1,0 +1,7 @@
+.signup-container {
+  @apply h-full w-full bg-primary dark:bg-dark-primary dark:text-dark-text text-text flex flex-col;
+}
+
+.signup-form {
+  @apply bg-primary dark:bg-dark-secondary p-8 rounded-xl shadow-lg flex flex-col gap-4 w-full max-w-lg relative;
+}

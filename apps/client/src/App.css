@@ -1,0 +1,29 @@
+.app {
+  @apply h-[100dvh] w-[100dvw] dark:bg-dark-primary bg-primary dark:text-dark-text text-text relative flex flex-col items-center select-none;
+}
+
+.outlet-container {
+  @apply w-full max-w-screen-xl flex-grow overflow-x-hidden overflow-y-scroll relative;
+}
+
+::-webkit-scrollbar {
+  /* Customize the scrollbar width */
+  width: 2px;
+}
+
+::-webkit-scrollbar-track {
+  /* Customize the scrollbar track */
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  /* Customize the scrollbar thumb */
+  background: #121212;
+  border-radius: 5px;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  /* Customize the scrollbar thumb */
+  background: #adadad;
+  border-radius: 5px;
+}

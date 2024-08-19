@@ -1,0 +1,20 @@
+{
+  "name": "mcqapp",
+  "private": true,
+  "version": "1.0.0",
+  "description": "'A mcq game platform'",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm --workspace apps/api start\" \"npm --workspace apps/client start\" \"npm --workspace apps/websocket start\"",
+    "build:packages": "npm run build --workspace=packages/validations --workspace=packages/types"
+  },
+  "author": "Tushar Raghav",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

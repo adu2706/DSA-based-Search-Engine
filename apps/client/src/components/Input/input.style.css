@@ -1,0 +1,7 @@
+.custom-input {
+  @apply flex flex-col gap-1 items-start w-full;
+}
+
+.custom-input input {
+  @apply border border-border-secondary font-normal outline-none rounded-lg p-3  w-full bg-inherit;
+}

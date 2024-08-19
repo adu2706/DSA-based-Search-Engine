@@ -1,0 +1,16 @@
+{
+  "name": "@mcqapp/validations",
+  "version": "1.0.0",
+  "description": "'zod validations of mcq app",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.ts",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "author": "Tushar Raghav",
+  "license": "ISC",
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}
